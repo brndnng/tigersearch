@@ -69,7 +69,7 @@ def download_links(results, dir_path, metadata_file='metadata.json', metadata_st
       json.dump(metadata, out_file)
 
 
-while retrieved < 10:
+while retrieved < 100:
 	location, heading, fov = newpoint()
 	#print str(location[0])+","+str(location[1])
 	params = [{
